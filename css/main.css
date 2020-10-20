@@ -1,0 +1,56 @@
+html {
+  font-family: arial; }
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-basis: 100%;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background: #2155CE;
+  background: -moz-linear-gradient(45deg, #2155CE 0%, #0078A4 41%, #2BC5C0 100%);
+  background: -webkit-linear-gradient(45deg, #2155CE 0%, #0078A4 41%, #2BC5C0 100%);
+  background: linear-gradient(45deg, #2155CE 0%, #0078A4 41%, #2BC5C0 100%); }
+
+.phone {
+  width: 328px;
+  height: 578px;
+  background-color: #1f1f1f;
+  border: 10px #000 solid;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .phone__display {
+    position: relative;
+    width: 320px;
+    height: 568px;
+    background-color: #fff;
+    border-radius: 25px;
+    overflow: hidden; }
+  .phone__nav {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    height: 50px;
+    background-color: rgba(31, 31, 31, 0.5); }
+    .phone__nav a {
+      width: 15px;
+      height: 15px;
+      color: #fff;
+      background-color: #fff;
+      border: 2px currentColor groove;
+      border-radius: 100%;
+      margin: 0 20px; }
+      .phone__nav a:hover {
+        background-color: #d0d0d0; }
+
+/*# sourceMappingURL=main.css.map */
