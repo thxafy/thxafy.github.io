@@ -1,0 +1,35 @@
+<html>
+<head>
+<title>Standard Uhr</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<script type="text/javascript">
+
+function clock() {
+
+//ZEIT
+  var now = new Date();
+  var hours = now.getHours();
+  var minutes = now.getMinutes();
+
+  if(hours<10){
+    hours = "0"+hours;
+  }
+  if(minutes<10){
+    minutes = "0"+minutes;
+  }
+
+  var timeString = ""+hours+":"+minutes;
+  uhr.innerHTML = timeString;
+
+
+window.setTimeout("clock();", 1000);
+}
+
+</script>
+</head>
+<body onLoad="clock()">
+
+<span id="uhr" style="font-size:10pt; color:#000000;">uhr</span>
+
+</body>
+</html>

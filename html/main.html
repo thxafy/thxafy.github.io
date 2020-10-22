@@ -7,9 +7,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link type="image/x-icon" href="../img/favicon.ico" rel="shortcut icon"/>
         <link href="../css/main.css" rel="stylesheet" type="text/css">
+		<script src="../js/clock.js" type="text/javascript"></script>
     </head>
-	
-    <body>
+
+    <body onLoad="clock()">
 	<div class="phone">
 	<div class="phone__style">
 	<div class="phone__style--1"></div>	
@@ -17,13 +18,14 @@
 	<div class="phone__style--3"></div>	
 	</div>
 	<div class="phone__display">
+	
 	<header>
+	<span id="uhr" style="font-size:10pt; color:#000000; margin-left: 20px">uhr</span>
 	</header>
+		
 	<nav class="phone__nav">
-	<a><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30.5 34"><defs><style>.cls-1{fill:currentColor;}</style></defs><path class="cls-1" d="M42.75,25V38a4,4,0,0,1-6,3.45L25.51,35l-11.27-6.5a4,4,0,0,1,0-6.9l11.27-6.5L36.78,8.54a4,4,0,0,1,6,3.45Z" transform="translate(-12.25 -8)"/></svg></a>
-		
-	<a><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 54.12 54.12"><defs><style>.cls-2{fill:none;stroke:currentColor;stroke-miterlimit:10;stroke-width:2.12px;}.cls-3{fill:currentColor;}</style></defs><circle class="cls-2" cx="27.06" cy="27.06" r="26"/><circle class="cls-3" cx="27.06" cy="27.06" r="20.55"/></svg></a>
-		
+	<a><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30.5 34"><defs><style>.cls-1{fill:currentColor;}</style></defs><path class="cls-1" d="M42.75,25V38a4,4,0,0,1-6,3.45L25.51,35l-11.27-6.5a4,4,0,0,1,0-6.9l11.27-6.5L36.78,8.54a4,4,0,0,1,6,3.45Z" transform="translate(-12.25 -8)"/></svg></a>	
+	<a><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 54.12 54.12"><defs><style>.cls-2{fill:none;stroke:currentColor;stroke-miterlimit:10;stroke-width:2.12px;}.cls-3{fill:currentColor;}</style></defs><circle class="cls-2" cx="27.06" cy="27.06" r="26"/><circle class="cls-3" cx="27.06" cy="27.06" r="20.55"/></svg></a>		
 	<a><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 38 38"><defs><style>.cls-4{fill:currentColor;}</style></defs><rect class="cls-4" width="38" height="38" rx="5"/></svg></a>
 	<ul style="display:none">
 	<li></li>	
@@ -31,6 +33,7 @@
 	<li></li>	
 	</ul>
 	</nav>
+		
 	<main>
 		
 	</main>
