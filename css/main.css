@@ -10,16 +10,16 @@ body {
   min-height: 100vh;
   justify-content: center;
   align-items: center;
-  background: #2155CE;
-  background: -moz-linear-gradient(45deg, #2155CE 0%, #0078A4 41%, #2BC5C0 100%);
-  background: -webkit-linear-gradient(45deg, #2155CE 0%, #0078A4 41%, #2BC5C0 100%);
-  background: linear-gradient(45deg, #2155CE 0%, #0078A4 41%, #2BC5C0 100%); }
+  background: #f0f0f0;
+  background: linear-gradient(45deg, #f0f0f0 0%, white 0%, #e9e9e9 10%, #f4f1f1 20%, white 34%, #f7f7f7 50%, white 61%, #f7f7f7 70%, white 79%, #fcfcfc 89%, white 100%);
+  background: -moz-linear-gradient(45deg, #f0f0f0 0%, white 0%, #e9e9e9 10%, #f4f1f1 20%, white 34%, #f7f7f7 50%, white 61%, #f7f7f7 70%, white 79%, #fcfcfc 89%, white 100%);
+  background: -webkit-linear-gradient(45deg, #f0f0f0 0%, white 0%, #e9e9e9 10%, #f4f1f1 20%, white 34%, #f7f7f7 50%, white 61%, #f7f7f7 70%, white 79%, #fcfcfc 89%, white 100%); }
 
 .phone {
   width: 328px;
   height: 578px;
-  background-color: #1f1f1f;
-  border: 10px #000 solid;
+  background-color: #c90000;
+  border: 10px #c90000 solid;
   border-radius: 40px;
   display: flex;
   justify-content: center;
@@ -43,14 +43,18 @@ body {
     height: 50px;
     background-color: rgba(31, 31, 31, 0.5); }
     .phone__nav a {
-      width: 15px;
-      height: 15px;
-      color: #fff;
-      background-color: #fff;
-      border: 2px currentColor groove;
-      border-radius: 100%;
-      margin: 0 20px; }
-      .phone__nav a:hover {
-        background-color: #d0d0d0; }
+      width: 60px;
+      height: 30px;
+      border-radius: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 10px; }
+      .phone__nav a:hover, .phone__nav a:focus {
+        background-color: rgba(208, 208, 208, 0.25); }
+      .phone__nav a svg {
+        width: 16px;
+        height: 16px;
+        color: rgba(255, 255, 255, 0.8); }
 
 /*# sourceMappingURL=main.css.map */
