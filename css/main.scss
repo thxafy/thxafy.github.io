@@ -1,9 +1,9 @@
-$color-dark: #1f1f1f;
-$color-dark2: rgba(31, 31, 31, 0.5);
+$color-dark: #262626;
+$color-dark2: rgba(31, 31, 31, 0.35);
 $color-light: #d0d0d0;
-$color-light2: rgba(208, 208, 208, 0.25);
+$color-light2: rgba(208, 208, 208, 0.50);
 $color-white: #fff;
-$color-white2: rgba(255, 255, 255, 0.8);
+$color-white2: rgba(255, 255, 255, 0.95);
 $color-black: #000;
 $color-red:#c90000;
 html{
@@ -27,17 +27,46 @@ background: -webkit-linear-gradient(45deg, rgba(240,240,240,1) 0%, rgba(255,255,
 	width: 328px;
 	height: 578px;
 	background-color: $color-dark;
-	border: 10px $color-red solid;
-	border-radius: 40px;
+	border: 8px $color-red solid;
+	border-radius: 42px;
 	display: flex;
 	justify-content: center;
     align-items: center;
+	&__style{
+		position:relative;
+		height: 100%;
+		z-index:1;
+		&--1{
+			position: absolute;
+			top:0;
+			left:110px;
+			width: 100px;
+			height: 5px;
+			background-color: $color-black;
+		}
+		&--2{
+			position: absolute;
+			top:80px;
+			left:332px;
+			width: 4px;
+			height: 80px;
+			background-color: $color-red;
+		}
+		&--3{
+			position: absolute;
+			top:180px;
+			left:332px;
+			width: 4px;
+			height: 50px;
+			background-color: $color-red;
+		}
+	}
 	&__display{
 	position: relative;
 	width: 320px;
 	height: 568px;
 	background-color: $color-white;
-	border-radius: 25px;
+	border-radius: 28px;
     overflow: hidden;
 	}
 	&__nav{

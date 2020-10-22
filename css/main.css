@@ -18,18 +18,43 @@ body {
 .phone {
   width: 328px;
   height: 578px;
-  background-color: #1f1f1f;
-  border: 10px #c90000 solid;
-  border-radius: 40px;
+  background-color: #262626;
+  border: 8px #c90000 solid;
+  border-radius: 42px;
   display: flex;
   justify-content: center;
   align-items: center; }
+  .phone__style {
+    position: relative;
+    height: 100%;
+    z-index: 1; }
+    .phone__style--1 {
+      position: absolute;
+      top: 0;
+      left: 110px;
+      width: 100px;
+      height: 5px;
+      background-color: #000; }
+    .phone__style--2 {
+      position: absolute;
+      top: 80px;
+      left: 332px;
+      width: 4px;
+      height: 80px;
+      background-color: #c90000; }
+    .phone__style--3 {
+      position: absolute;
+      top: 180px;
+      left: 332px;
+      width: 4px;
+      height: 50px;
+      background-color: #c90000; }
   .phone__display {
     position: relative;
     width: 320px;
     height: 568px;
     background-color: #fff;
-    border-radius: 25px;
+    border-radius: 28px;
     overflow: hidden; }
   .phone__nav {
     position: absolute;
@@ -41,7 +66,7 @@ body {
     align-items: center;
     width: 320px;
     height: 50px;
-    background-color: rgba(31, 31, 31, 0.5); }
+    background-color: rgba(31, 31, 31, 0.35); }
     .phone__nav a {
       width: 60px;
       height: 30px;
@@ -51,10 +76,10 @@ body {
       align-items: center;
       margin: 0 10px; }
       .phone__nav a:hover, .phone__nav a:focus {
-        background-color: rgba(208, 208, 208, 0.25); }
+        background-color: rgba(208, 208, 208, 0.5); }
       .phone__nav a svg {
         width: 16px;
         height: 16px;
-        color: rgba(255, 255, 255, 0.8); }
+        color: rgba(255, 255, 255, 0.95); }
 
 /*# sourceMappingURL=main.css.map */
