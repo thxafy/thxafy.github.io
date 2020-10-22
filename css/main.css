@@ -18,7 +18,7 @@ body {
 .phone {
   width: 328px;
   height: 578px;
-  background-color: #c90000;
+  background-color: #1f1f1f;
   border: 10px #c90000 solid;
   border-radius: 40px;
   display: flex;
